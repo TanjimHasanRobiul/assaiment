@@ -1,0 +1,26 @@
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+.navi{
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+.navi li{
+    list-style: none;
+    margin: 10px;
+}
+.navi li a{
+    text-decoration: none;
+    color: black;
+}
