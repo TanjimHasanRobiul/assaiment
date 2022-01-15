@@ -1,14 +1,12 @@
 
 .container{
-    max-width: 1200px;
+    max-width:1500px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 .head{
     margin-top: auto;
-
 }
-
 nav{
     display: flex;
     justify-content: space-between;
@@ -28,26 +26,28 @@ nav{
     color: black;
 }
 /* top img and paragrap style- */
+
 .contener{
  display: flex;
  justify-content: space-between;
 padding-left:4%;
-
 }
-
+.text{ 
+    display: inline;
+}
 .title{
 width: 582px;
 height: 138px;
-margin-left: 3%;
-padding-left:5px;
+/* margin-left: 3%;
+padding-left:5px; */
 
 }
 h1{
     font-size:52px;
 }
 .left-img{
-width: 440px;
-height: 414px;
+    width: 440px;
+    height: 430px;
 }
 
 .link-batton{
@@ -60,13 +60,64 @@ color:white;
 background-color:#E02C6D;
 }
 
-hr{
+hr{ 
+    width: 90%;
  border: 1px solid #D1D1D1;
-margin-bottom:20px;}
+margin-bottom:20px;
+}
    
 .logo{
 display: flex;
 justify-content:space-around;}
 
-    
+/* ----------product---------- */
 
+.container{
+    margin-top: 50px;
+    padding-left:10%;
+}
+.section-title{
+    text-align: center;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 40px;
+}
+.product .course-pic img{
+width: 224px;
+height: 170px;
+}
+
+.ratting{
+display: flex;
+align-items: center;
+justify-content: space-between;
+display: inline;
+}
+
+.fa-star{
+font-size: 12px;
+}
+
+.fa-star.filled{
+    color:#FFC014;
+}
+.fa-star.empty{
+    color:#AEAEAE;
+}
+.dis{
+    color: green;
+}
+.product-price{
+ color: #f114f8;
+}
+.see{
+    text-align: end;
+    color: crimson;
+    font-size: 25px;
+    padding-right:20px;
+}
+.contact{
+text-align: center;
+}
