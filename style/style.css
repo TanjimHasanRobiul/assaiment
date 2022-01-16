@@ -50,6 +50,9 @@ h1{
 width: 440px;
 height: 430px;
 }
+.left-img:hover{
+    transform: rotate(-60deg);
+}
 
 .link-batton{
 width:500px;
