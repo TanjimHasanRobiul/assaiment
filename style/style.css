@@ -92,9 +92,13 @@ color: chocolate;
         padding-left: 20px;
         border-radius: 10px;
         box-shadow: 5px 5px 20px grey;
+
+        transition: width 1s, height 1s, transform 1s;
     }
 
-
+.continar-1:hover{
+background-color: #f0e68ca9;
+}
 
 .products{
 display: grid;
@@ -145,7 +149,9 @@ color: hsla(241, 84%, 50%, 0.835);
 margin-left: 10%;
 }
 
-
+.contact:hover{
+    background-color: khaki;
+}
 
 .cnt{
     color: blue;
